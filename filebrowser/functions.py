@@ -9,9 +9,9 @@ from urlparse import urlparse
 from django.utils.translation import ugettext as _
 from django.utils.safestring import mark_safe
 from django.core.files import File
-from django.core.files.storage import default_storage
 
 # filebrowser imports
+from filebrowser.storage import default_storage
 from filebrowser.settings import *
 
 # PIL import
